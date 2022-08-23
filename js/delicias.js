@@ -17,11 +17,12 @@ function botonUp(){
 btomArriba =   document.getElementById("btomArriba");
 
 window.onscroll = function(){
-   let scroll = document.documentElement.scrollTop;
-   if (scroll > 500){
-       btomArriba.style.transform = "scale(1)";
-   }else if (scroll <500){
+    let scroll = document.documentElement.scrollTop;
+    if (scroll > 500){
+        btomArriba.style.transform = "scale(1)";
+    }else if (scroll <500){
     btomArriba.style.transform = "scale(0)";
-   }
+    }
 }
+
 

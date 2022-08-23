@@ -53,7 +53,7 @@ main{
           }
       }
       .mainDulUno:hover{
-        box-shadow: 0px 0x 10px black;
+        box-shadow: 0px 0px 10px black;
         transform: scale(1.01, 1.01);
       }
       .mainDulDos{
@@ -151,10 +151,10 @@ main{
             color: white;
         }
         .dulCumpleTres{
-          background-image: url("imagenes/boxCumple.jpg");
-          background-repeat: no-repeat;
-          background-position: center center;
-          background-size: cover;
+          background-image: url("../imagenes/tortas/foto delicias/tortaTematica1.jpeg");
+          background-repeat: repeat;
+          background-position: center;
+          background-size:contain;
           .dulCumpleCinco{
             margin-top: 250px;
           }

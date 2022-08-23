@@ -1,41 +1,29 @@
 main {
   padding-top: 3rem;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
 }
-
 main .mainDul {
   padding: 20px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 48%;
-      grid-template-columns: 50% 48%;
-  -ms-grid-rows: 18rem 18rem;
-      grid-template-rows: 18rem 18rem;
-      grid-template-areas: "imgUno imgDos" "imgUno imgTres";
+  grid-template-columns: 50% 48%;
+  grid-template-rows: 18rem 18rem;
+  grid-template-areas: "imgUno imgDos" "imgUno imgTres";
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
 }
-
 main .mainDul .mainDulUno {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
   grid-area: imgUno;
   position: relative;
 }
-
 main .mainDul .mainDulUno img {
   border-radius: 2%;
   height: 100%;
   width: 100%;
   position: absolute;
 }
-
 main .mainDul .mainDulUno img:hover {
-  -webkit-box-shadow: 0px 0px 10px black;
-          box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px black;
 }
-
 main .mainDul .mainDulUno .dulTortasUno {
   width: 100%;
   height: 15%;
@@ -46,45 +34,33 @@ main .mainDul .mainDulUno .dulTortasUno {
   position: absolute;
   left: 5%;
   top: 95%;
-  -webkit-transform: translate(-5%, -95%);
-          transform: translate(-5%, -95%);
+  transform: translate(-5%, -95%);
 }
-
 main .mainDul .mainDulUno .dulTortasUno h2 {
   opacity: 60%;
   color: white;
 }
-
 main .mainDul .mainDulUno .dultortadDos {
   position: absolute;
   padding-top: 2rem;
   left: 90%;
   top: 90%;
-  -webkit-transform: translate(-90%, -90%);
-          transform: translate(-90%, -90%);
+  transform: translate(-90%, -90%);
   opacity: 60%;
 }
-
 main .mainDul .mainDulUno:hover {
-  -webkit-box-shadow: 0px 0x 10px black;
-          box-shadow: 0px 0x 10px black;
-  -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
+  box-shadow: 0px 0px 10px black;
+  transform: scale(1.01, 1.01);
 }
-
 main .mainDul .mainDulDos {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   grid-area: imgDos;
   position: relative;
 }
-
 main .mainDul .mainDulDos img {
   border-radius: 2%;
   height: 100%;
   width: 100%;
 }
-
 main .mainDul .mainDulDos .dulTortasUno {
   width: 100%;
   height: 32%;
@@ -95,46 +71,34 @@ main .mainDul .mainDulDos .dulTortasUno {
   position: absolute;
   left: 5%;
   top: 90%;
-  -webkit-transform: translate(-5%, -95%);
-          transform: translate(-5%, -95%);
+  transform: translate(-5%, -95%);
 }
-
 main .mainDul .mainDulDos .dulTortasUno h2 {
   opacity: 60%;
   color: white;
 }
-
 main .mainDul .mainDulDos .dultortadDos {
   position: absolute;
   padding-bottom: 1rem;
   left: 90%;
   top: 85%;
-  -webkit-transform: translate(-90%, -85%);
-          transform: translate(-90%, -85%);
+  transform: translate(-90%, -85%);
   opacity: 60%;
 }
-
 main .mainDul .mainDulDos:hover {
-  -webkit-box-shadow: 0px 0px 10px black;
-          box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px black;
   border-radius: 10px;
-  -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
+  transform: scale(1.01, 1.01);
 }
-
 main .mainDul .mainDulTres {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: imgTres;
   position: relative;
 }
-
 main .mainDul .mainDulTres img {
   border-radius: 2%;
   height: 100%;
   width: 100%;
 }
-
 main .mainDul .mainDulTres .dulTortasUno {
   width: 100%;
   height: 32%;
@@ -145,109 +109,81 @@ main .mainDul .mainDulTres .dulTortasUno {
   position: absolute;
   left: 5%;
   top: 90%;
-  -webkit-transform: translate(-5%, -95%);
-          transform: translate(-5%, -95%);
+  transform: translate(-5%, -95%);
 }
-
 main .mainDul .mainDulTres .dulTortasUno h2 {
   opacity: 60%;
   color: white;
 }
-
 main .mainDul .mainDulTres .dultortadDos {
   position: absolute;
   padding-bottom: 1rem;
   left: 90%;
   top: 85%;
-  -webkit-transform: translate(-90%, -85%);
-          transform: translate(-90%, -85%);
+  transform: translate(-90%, -85%);
   opacity: 60%;
 }
-
 main .mainDul .mainDulTres:hover {
-  -webkit-box-shadow: 0px 0px 10px black;
-          box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px black;
   border-radius: 10px;
-  -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
+  transform: scale(1.01, 1.01);
 }
-
 main .dulCumpleUno {
   padding: 60px;
 }
-
 main .dulCumpleUno .dulCumpleDos {
   height: 25rem;
 }
-
 main .dulCumpleUno .dulCumpleDos .dulCumpleCuatro {
   height: 4rem;
   background-color: #206270;
   color: white;
 }
-
 main .dulCumpleUno .dulCumpleDos .dulCumpleTres {
-  background-image: url("imagenes/boxCumple.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-image: url("../imagenes/tortas/foto delicias/tortaTematica1.jpeg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
 }
-
 main .dulCumpleUno .dulCumpleDos .dulCumpleTres .dulCumpleCinco {
   margin-top: 250px;
 }
-
 main .redesDul {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   text-align: center;
   font-size: 40px;
 }
-
 main .redesDulUno {
   max-width: 1200px;
   margin: auto;
   margin-top: 20px;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  perspective: 1000px;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 main .redesDulUno .redesDulPadre {
   margin: 40px;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
+  perspective: 1000px;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos {
   width: 250px;
   height: 300px;
   position: relative;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-transition: all 600ms;
+  transform-style: preserve-3d;
   transition: all 600ms;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulFace {
   background-color: #95b8f6;
   border-radius: 20px;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulInsta {
   background-color: #f47edd;
   border-radius: 20px;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulwhat {
   background-color: #98f6a9;
   border-radius: 20px;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosCara {
   position: absolute;
   width: 100%;
@@ -256,144 +192,98 @@ main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosCara {
   left: 0;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   background-size: cover;
   background-position: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 30%;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosCara .imgDulRedes {
   width: 100px;
   height: 100px;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosCara h4 {
   font-size: 27px;
   text-align: center;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosCara .redesDulDosCaraCuerpo {
   width: 100%;
   height: 100%;
   text-align: center;
   padding: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   color: white;
   border-radius: 20px;
-  -webkit-transform: translateZ(60px);
-          transform: translateZ(60px);
+  transform: translateZ(60px);
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulFaceDorso {
-  -webkit-box-shadow: 0 0 30px #95b8f6;
-          box-shadow: 0 0 30px #95b8f6;
+  box-shadow: 0 0 30px #95b8f6;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulInstaDorso {
-  -webkit-box-shadow: 0 0 30px #f47edd;
-          box-shadow: 0 0 30px #f47edd;
+  box-shadow: 0 0 30px #f47edd;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulwhatDorso {
-  -webkit-box-shadow: 0 0 30px #98f6a9;
-          box-shadow: 0 0 30px #98f6a9;
+  box-shadow: 0 0 30px #98f6a9;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosDorso {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   border-radius: 20px;
-  background-color: #ffff;
+  background-color: white;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosDorso .redesDulDosDorsoCuerpo {
   padding: 40px;
   text-align: center;
-  -webkit-transform: translateZ(60px);
-          transform: translateZ(60px);
+  transform: translateZ(60px);
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosDorso .redesDulDosDorsoCuerpo div img {
   border-radius: 100%;
   height: 120px;
   width: 120px;
-  -webkit-box-shadow: 1px 1px 30px -5px #95b8f6;
-          box-shadow: 1px 1px 30px -5px #95b8f6;
+  box-shadow: 1px 1px 30px -5px #95b8f6;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosDorso .redesDulDosDorsoCuerpo p {
   font-size: 30px;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosDorso .redesDulDosDorsoCuerpo input {
   padding: 10px 20px;
   margin-top: 10px;
   font-size: 16px;
   cursor: pointer;
   border: none;
-  color: #ffff;
+  color: white;
   letter-spacing: 1px;
   background-color: #95b8f6;
-  -webkit-box-shadow: 1px 1px 30px -5px #95b8f6;
-          box-shadow: 1px 1px 30px -5px #95b8f6;
+  box-shadow: 1px 1px 30px -5px #95b8f6;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosDorso .redesDulDosDorsoCuerpo .imgInsta {
-  -webkit-box-shadow: 1px 1px 30px -5px #f47edd;
-          box-shadow: 1px 1px 30px -5px #f47edd;
+  box-shadow: 1px 1px 30px -5px #f47edd;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosDorso .redesDulDosDorsoCuerpo .inputInsta {
   background-color: #f47edd;
-  -webkit-box-shadow: 1px 1px 30px -5px #f47edd;
-          box-shadow: 1px 1px 30px -5px #f47edd;
+  box-shadow: 1px 1px 30px -5px #f47edd;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosDorso .redesDulDosDorsoCuerpo .imgWhat {
-  -webkit-box-shadow: 1px 1px 30px -5px #98f6a9;
-          box-shadow: 1px 1px 30px -5px #98f6a9;
+  box-shadow: 1px 1px 30px -5px #98f6a9;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos .redesDulDosDorso .redesDulDosDorsoCuerpo .inputWhat {
   background-color: #98f6a9;
-  -webkit-box-shadow: 1px 1px 30px -5px #98f6a9;
-          box-shadow: 1px 1px 30px -5px #98f6a9;
+  box-shadow: 1px 1px 30px -5px #98f6a9;
 }
-
 main .redesDulUno .redesDulPadre .redesDulDos:hover {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 footer {
@@ -402,42 +292,27 @@ footer {
   background-color: #e3dedb;
   background-image: url(../imagenes/footer/footerDulce.png);
   background-size: cover;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
-
 footer h2 {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
 }
-
 footer .dulceFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
   max-width: 1300px;
   margin: auto;
   margin-top: 100px;
 }
-
 footer .dulceFooter .dulceCajaFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 40px;
 }
-
 footer .dulceFooter .dulceCajaFooter .dulceLogo img {
   width: 80px;
 }
-
 footer .dulceFooter .dulceCajaFooter .dulceContenedorUno {
   max-width: 350px;
   margin-top: 10px;
@@ -445,13 +320,11 @@ footer .dulceFooter .dulceCajaFooter .dulceContenedorUno {
   color: #7a7a7a;
   font-size: 18px;
 }
-
 footer .dulceFooter .dulceCajaFooter h2 {
   margin-bottom: 30px;
   color: #343434;
   font-weight: 700;
 }
-
 footer .dulceFooter .dulceCajaFooter a {
   margin-top: 10px;
   color: #7a7a7a;
@@ -459,34 +332,28 @@ footer .dulceFooter .dulceCajaFooter a {
   font-size: 18px;
   text-decoration: none;
 }
-
 footer .dulceFooter .dulceCajaFooter a i {
   font-size: 20px;
 }
-
 footer .dulceFooter .dulceCajaFooter h4 {
   margin-top: 10px;
   color: #7a7a7a;
   font-weight: 600;
   font-size: 18px;
 }
-
 footer .dulceFooter .dulceCajaFooter a:hover {
   opacity: 0.8;
 }
-
 footer .dulceCopyright {
   max-width: 1300px;
   margin: auto;
   text-align: center;
   padding: 0px 40px;
 }
-
 footer .dulceCopyright p {
   margin-top: 20px;
   color: #7a7a7a;
 }
-
 footer .dulceCopyright hr {
   border: none;
   height: 1px;
@@ -494,170 +361,115 @@ footer .dulceCopyright hr {
 }
 
 main .contenedorQuienSoy {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 60% 40%;
-      grid-template-columns: 60% 40%;
-  -ms-grid-rows: 450px;
-      grid-template-rows: 450px;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 450px;
 }
-
 main .contenedorQuienSoy .cajaUnoQuienSoy h3 {
   text-align: center;
   font-size: 50px;
 }
-
 main .contenedorQuienSoy .cajaUnoQuienSoy p {
   text-align: center;
   font-size: 35px;
   margin-top: 50px;
   padding: 10px;
 }
-
 main .contenedorQuienSoy .cajaDosQuienSoy img {
   width: 85%;
   height: 100%;
   border-radius: 25%;
-  -webkit-box-shadow: 0px 0px 10px;
-          box-shadow: 0px 0px 10px;
+  box-shadow: 0px 0px 10px;
 }
-
 main .contendedorTotal {
   margin: 20px;
 }
-
 main .contendedorTotal .contenedorCarruselTotal .contenedorImagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 main .contendedorTotal .contenedorCarruselTotal .contenedorImagenes img {
   padding: 20px;
   height: 300px;
   width: 300px;
   border-radius: 90px;
-  -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-
 main .contendedorTotal .contenedorCarruselTotal .contenedorImagenes img:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 
 .mainEncuentranos {
   height: 700px;
 }
-
 .mainEncuentranos .tituloEncuentranos {
   font-size: 50px;
   padding: 2rem;
 }
-
 .mainEncuentranos .contactoDul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 1rem;
   height: 100%;
 }
-
 .mainEncuentranos .contactoDul .contactoDulRedes {
   width: 50%;
 }
-
 .mainEncuentranos .contactoDul .contactoDulRedes div {
   padding: 0.5rem;
   font-size: 1.1rem;
 }
-
 .mainEncuentranos .contactoDul .contactoDulRedes hr {
   width: 90%;
 }
-
 .mainEncuentranos .contactoDul .contactoDulRedes a {
   padding: 0.2rem;
   font-size: 40px;
   color: #7a7a7a;
 }
-
 .mainEncuentranos .contactoDul .contactoDulEmail {
   width: 50%;
   font-size: 1.1rem;
 }
-
 .mainEncuentranos .contactoDul .contactoDulEmail .contactoDulFormulario {
   width: 90%;
 }
-
 .mainEncuentranos .contactoDul .contactoDulEmail .contactoDulFormulario .contactoDulEmailUno {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
   padding: 0.2rem;
 }
-
 .mainEncuentranos .contactoDul .contactoDulEmail .contactoDulFormulario .contactoDulEmailUno input, .mainEncuentranos .contactoDul .contactoDulEmail .contactoDulFormulario .contactoDulEmailUno textarea {
   background-color: #e3dedb;
   border: 0;
   border-bottom: 2px solid #7a7a7a;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
-
 .mainEncuentranos .contactoDul .contactoDulEmail .contactoDulFormulario .contactoDulEmailUno .contactoDulEnviar {
   background-color: #7a7a7a;
   border: 0;
   width: 30%;
   height: 3rem;
-  -webkit-box-shadow: 0px 0px 10px #7a7a7a;
-          box-shadow: 0px 0px 10px #7a7a7a;
+  box-shadow: 0px 0px 10px #7a7a7a;
 }
 
 .contenedorDeliciasDul h2 {
   margin: 15px;
 }
-
 .contenedorDeliciasDul .contenedorTortasClasicas {
   margin: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
 .contenedorDeliciasDul .contenedorTortasClasicas .card {
-  -webkit-box-shadow: 0px 0px 10px;
-          box-shadow: 0px 0px 10px;
+  box-shadow: 0px 0px 10px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -665,68 +477,45 @@ main .contendedorTotal .contenedorCarruselTotal .contenedorImagenes img:hover {
     height: 300px;
   }
   body header nav .navBarDulUno .navBarDulDos .navBarDulTres .navBarDulCuatro {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 }
-
-main h2 {
+main h2, main h3 {
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
-
 main .imagenDulc {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 main .imagenDulc .imagenClienteFelices {
   padding: 10px;
 }
-
 main .imagenDulc .imagenClienteFelices img {
-  -webkit-box-shadow: 0px 0px 10px;
-          box-shadow: 0px 0px 10px;
+  box-shadow: 0px 0px 10px;
 }
 
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #e3dedb;
 }
-
 body .contenedorCargaEstilo {
   background-color: rgba(250, 240, 245, 0.9);
   height: 100%;
   width: 100%;
   position: fixed;
-  -webkit-transition: all 1s ease;
   transition: all 1s ease;
   z-index: 10000;
 }
-
 body .contenedorCargaEstilo .contenedorCargaPrincipal {
   border: 15px solid #ccc;
   border-top-color: #f47edd;
@@ -743,7 +532,6 @@ body .contenedorCargaEstilo .contenedorCargaPrincipal {
   -webkit-animation: girar 1.5s linear infinite;
   animation: girar 1.5s linear infinite;
 }
-
 body .contenedorCargaEstilo .contenedorCargaPrincipal img {
   height: 110px;
   width: 110px;
@@ -754,78 +542,53 @@ body .contenedorCargaEstilo .contenedorCargaPrincipal img {
   bottom: 0;
   margin: auto;
 }
-
 @-webkit-keyframes girar {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
 @keyframes girar {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 header .tituloDul {
   height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
-
 header .tituloDul .tituloDulImgContenedor .imgUno {
   position: relative;
   left: -50px;
 }
-
 header .tituloDul .tituloDulImgContenedor .imgDos {
   position: relative;
   left: 50px;
 }
-
 header .tituloDul .tituloDulImgContenedor .tituloDulImg {
   position: relative;
   top: -130px;
   height: 300px;
   width: 450px;
 }
-
 header .tituloDul .tituloDulCartel {
   margin-top: 1rem;
   height: 100px;
   width: 500px;
   background-color: #0d2024;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
 header .tituloDul .tituloDulCartel .tituloDulCartelUno {
   position: relative;
   top: 2.2rem;
@@ -833,69 +596,48 @@ header .tituloDul .tituloDulCartel .tituloDulCartelUno {
   width: 1rem;
   background-color: #eed09d;
 }
-
 header .tituloDul .tituloDulCartel .titulo {
   color: white;
   text-align: center;
   padding-top: 20px;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
   font-size: 50px;
 }
-
 header .navBarDul {
   height: 150px;
 }
-
 header .navBarDul .tituloContenedor {
   color: white;
   text-align: center;
   padding-top: 20px;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
   font-size: 50px;
 }
-
 header nav {
   background-color: #aeccf2;
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-
 header nav .navBarDulUno {
   background-color: #206270;
   color: white;
   width: 100%;
 }
-
 header nav .navBarDulUno .navBarDulDos .navBarDulTres .navBarDulCuatro {
   opacity: 80%;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
 header nav .navBarDulUno .navBarDulDos .navBarDulTres .navBarDulCuatro a {
   color: white;
   font-size: 18px;
   letter-spacing: 2px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
-
 header .dulImg {
   height: 50px;
   width: 100%;
@@ -906,20 +648,13 @@ header .dulImg {
 main {
   background-color: #e3dedb;
 }
-
 main #btomArriba {
   width: 60px;
   height: 60px;
   background: #46a2fd;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   color: white;
   border-radius: 50%;
   font-size: 20px;
@@ -928,15 +663,10 @@ main #btomArriba {
   right: 50px;
   cursor: pointer;
   border: 4px solid transparent;
-  -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
-  -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
 }
-
 main #btomArriba:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   border-color: rgba(0, 0, 0, 0.1);
-}
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
