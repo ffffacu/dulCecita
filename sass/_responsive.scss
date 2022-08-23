@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px){
+    body{
+    header{
+        
+     nav{
+         .navBarDulUno{
+            height: 300px;
+             .navBarDulDos{
+                 .navBarDulTres{
+                     .navBarDulCuatro{
+                         display:flex;
+                         flex-direction: column;
+                         flex-wrap: nowrap;
+                     }   
+                 }
+             }
+         }
+    }
+    }
+    }
+ }

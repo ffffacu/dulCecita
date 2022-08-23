@@ -1,0 +1,77 @@
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #e3dedb;
+    background-image: url(../imagenes/footer/footerDulce.png);
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+    h2{
+        font-family: 'Berkshire Swash', cursive
+    }
+    .dulceFooter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1300px;
+        margin: auto;
+        margin-top: 100px;
+        .dulceCajaFooter{
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            .dulceLogo{
+                img{
+                    width: 80px;
+                }
+            }
+            .dulceContenedorUno{
+                max-width: 350px;
+                margin-top: 10px;
+                font-weight: 500;
+                color: #7a7a7a;
+                font-size: 18px;
+            }
+            h2{
+                margin-bottom: 30px;
+                color: #343434;
+                font-weight: 700;
+            }
+            a{
+                margin-top: 10px;
+                color: #7a7a7a;
+                font-weight: 600;
+                font-size: 18px;
+                text-decoration: none;
+                i{
+                    font-size: 20px;
+                }
+            }
+            h4{
+                margin-top: 10px;
+                color: #7a7a7a;
+                font-weight: 600;
+                font-size: 18px;
+            }
+            a:hover{
+                opacity: 0.8;
+            }
+        }
+        
+    }
+    .dulceCopyright{
+        max-width: 1300px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 40px;
+        p{
+            margin-top: 20px;
+            color: #7a7a7a;
+        }
+        hr{
+            border: none;
+            height: 1px;
+            background-color: #7a7a7a;
+        }
+    }
+
+}

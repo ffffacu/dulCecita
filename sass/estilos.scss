@@ -1,0 +1,185 @@
+
+@import "colores";
+@import "inicio";
+@import "footer";
+@import "quiensoy";
+@import "encuentranos";
+@import "delicias";
+@import "responsive";
+@import "felices";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#e3dedb ;
+    .contenedorCargaEstilo{
+        background-color: rgba(250, 240 , 245, 0.9);
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        -webkit-transition:all 1s ease ;
+        -o-transition:all 1s ease ;
+        transition: all 1s ease;
+        z-index: 10000;
+        .contenedorCargaPrincipal{
+            border: 15px solid #ccc;
+            border-top-color: #f47edd;
+            border-top-style: groove;
+            height: 150px;
+            width: 150px;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            -webkit-animation: girar 1.5s linear infinite;
+                -o-animation: girar 1.5s linear infinite;
+                animation: girar 1.5s linear infinite;
+            img{
+                height: 110px;
+                width: 110px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+            }
+        }
+        @keyframes girar {
+            from { transform: rotate(0deg );}
+            to{transform: rotate(360deg);}
+        }
+    }
+}
+header{
+    .tituloDul{
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        .tituloDulImgContenedor{
+            .imgUno{
+                position: relative;
+                left: -50px;
+            }
+            .imgDos{
+                position: relative;
+                left: 50px;
+            }
+
+        .tituloDulImg{
+            position: relative;
+            top: -130px;
+            height: 300px;
+            width: 450px;
+
+        }
+        }
+        .tituloDulCartel{
+            margin-top: 1rem;
+            height: 100px;
+            width: 500px;
+            background-color: $bgcolor2;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .tituloDulCartelUno{
+                position: relative;
+                top: 2.2rem;
+                height: 1rem;
+                width: 1rem;
+                background-color: #eed09d;
+            }
+            .titulo{
+                color: white;
+                text-align: center;
+                padding-top: 20px;
+                font-family: 'Berkshire Swash', cursive;
+                font-size: 50px;
+                }
+        }
+    }
+    .navBarDul{
+        height: 150px;
+        .tituloContenedor{
+            color: white;
+                text-align: center;
+                padding-top: 20px;
+                font-family: 'Berkshire Swash', cursive;
+                font-size: 50px;
+        }
+    }
+    nav{
+        background-color:$bgcolor1;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .navBarDulUno{
+            background-color: #206270;
+            color: white;
+            width: 100%;
+           
+            .navBarDulDos{
+                .navBarDulTres{
+                    .navBarDulCuatro{
+                        opacity: 80%;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        a{
+                            color: white;
+                            font-size: 18px;
+                            letter-spacing: 2px;
+                            font-family: 'Kaushan Script', cursive; 
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+    .dulImg{
+        height: 50px;
+        width: 100%;
+        background-image: url("imagenes/cuadrados.jpg");
+        background-repeat: repeat-x;
+    }
+}
+main{
+    background-color: #e3dedb;
+    #btomArriba{
+        width: 60px;
+        height: 60px;
+        background: #46a2fd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 50%;
+        font-size: 20px;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        cursor: pointer;
+        border: 4px solid transparent;
+        transition: all 300ms ease;
+        transform: scale(0);
+
+    }
+    #btomArriba:hover{
+        transform:scale(1.1);
+        border-color: rgba(0,0,0,0.1);
+    }
+    
+}

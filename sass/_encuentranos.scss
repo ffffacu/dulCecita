@@ -1,0 +1,56 @@
+.mainEncuentranos{
+    height: 700px;
+    .tituloEncuentranos{
+        font-size: 50px;
+        padding: 2rem;    
+    }
+    .contactoDul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1rem;
+        height: 100%;
+        .contactoDulRedes{
+            width: 50%;
+            div{
+                padding: 0.5rem;
+                font-size: 1.1rem;
+            }
+            hr{
+                width: 90%;
+            }
+            a{
+                padding: 0.2rem;
+                font-size: 40px;
+                color: #7a7a7a;
+            }
+        }
+        .contactoDulEmail{
+            width: 50%;
+            font-size: 1.1rem;
+            .contactoDulFormulario{
+                width: 90%;
+                .contactoDulEmailUno{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    padding: 0.2rem;
+                    
+                    input , textarea{
+                        background-color: #e3dedb;
+                        border: 0;
+                        border-bottom: 2px solid #7a7a7a;
+                        box-shadow: none;
+                    }
+                    .contactoDulEnviar{
+                        background-color:#7a7a7a;
+                        border: 0;
+                        width: 30%;
+                        height: 3rem;
+                        box-shadow: 0px 0px 10px #7a7a7a;
+                    }
+                 }
+            }
+        }
+    }
+}
