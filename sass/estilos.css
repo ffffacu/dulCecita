@@ -473,8 +473,46 @@ main .contendedorTotal .contenedorCarruselTotal .contenedorImagenes img:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  body header .tituloDul {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+  body header .tituloDul .tituloDulImgContenedor .imgUno {
+    position: relative;
+    left: -20px;
+  }
+  body header .tituloDul .tituloDulImgContenedor .imgDos {
+    position: relative;
+    left: 20px;
+  }
+  body header .tituloDul .tituloDulImgContenedor .tituloDulImg {
+    position: relative;
+    top: -30px;
+    height: 160px;
+    width: 150px;
+  }
+  body header .tituloDul .tituloDulCartel {
+    margin-top: 1.8rem;
+    height: 75px;
+    width: 400px;
+  }
+  body header .tituloDul .tituloDulCartel .tituloDulCartelUno {
+    top: 2rem;
+    height: 0.5rem;
+    width: 0.5rem;
+  }
+  body header .tituloDul .tituloDulCartel .titulo {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  body header nav {
+    height: 200px;
+  }
   body header nav .navBarDulUno {
-    height: 300px;
+    height: 100px;
   }
   body header nav .navBarDulUno .navBarDulDos .navBarDulTres .navBarDulCuatro {
     display: flex;

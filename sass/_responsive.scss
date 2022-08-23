@@ -1,10 +1,48 @@
 @media only screen and (max-width: 768px){
     body{
     header{
-        
+        .tituloDul{
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            .tituloDulImgContenedor{
+                .imgUno{
+                    position: relative;
+                    left: -20px;
+                }
+                .imgDos{
+                    position: relative;
+                    left: 20px;
+                }
+    
+            .tituloDulImg{
+                position: relative;
+                top: -30px;
+                height: 160px;
+                width: 150px;
+            }
+            }
+            .tituloDulCartel{
+                margin-top: 1.8rem;
+                height: 75px;
+                width: 400px;
+                .tituloDulCartelUno{
+                    top: 2rem;
+                    height: 0.5rem;
+                    width: 0.5rem;
+                }
+                .titulo{
+                    padding-top: 20px;
+                    font-size: 30px;
+                    }
+            }
+        }
      nav{
+         height: 200px;
          .navBarDulUno{
-            height: 300px;
+            height: 100px;
              .navBarDulDos{
                  .navBarDulTres{
                      .navBarDulCuatro{
