@@ -26,3 +26,38 @@ window.onscroll = function(){
 }
 
 
+//Agregado de Imagenes
+
+const renderHTMLimagenes = (imagen , contenedor)=>{
+    contenedor.innerHTML= " ";
+        for (let imagenDul of imagen){
+        const imagenInnerHTML= `<div class="card">
+        <img src="${imagenDul.img}" class="card-img-top" alt="${imagenDul.nombre}">
+        <div class="card-body">
+          <p>${imagenDul.nombre}</p>
+        </div>
+      </div>
+      <div class="card bg-dark text-white modalDul">
+  <img src="..." class="card-img  " alt="...">
+</div>
+        `;
+        contenedor.innerHTML += imagenInnerHTML;
+    } 
+
+}
+
+const imagenesTres = JSON.parse(dataTortas);
+const imagenesDos= document.getElementById("js-tortasClasicas");
+
+renderHTMLimagenes  (imagenesTres , imagenesDos);
+
+
+const imagenesCuatro = JSON.parse(dataTortasTematicas);
+const imagenesCinco= document.getElementById("js-tortasTematica");
+
+renderHTMLimagenes  (imagenesCuatro , imagenesCinco);
+
+const imagenesSeis = JSON.parse(dataDesayunoso);
+const imagenesSiete= document.getElementById("js-desayuno");
+
+renderHTMLimagenes  (imagenesSeis , imagenesSiete);
