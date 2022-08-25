@@ -29,12 +29,11 @@ main{
     .contendedorTotal{
         margin: 20px;
         .contenedorCarruselTotal{
-
             .contenedorImagenes{
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                justify-content:center;
+                justify-content:flex-start;
                 img{
                     padding: 20px;
                     height: 300px;

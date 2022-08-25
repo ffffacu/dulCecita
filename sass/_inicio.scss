@@ -4,12 +4,13 @@ main{
     .mainDul{
       padding: 20px;
       display: grid;
-      grid-template-columns: 50% 48%;
+      grid-template-columns: 50% 40%;
       grid-template-rows: 18rem 18rem;
       grid-template-areas: "imgUno imgDos"
       "imgUno imgTres";
       grid-column-gap: 2rem;
     grid-row-gap: 2rem;
+    justify-content:center;
 
       .mainDulUno{
           grid-area: imgUno;
@@ -53,7 +54,6 @@ main{
           }
       }
       .mainDulUno:hover{
-        box-shadow: 0px 0px 10px black;
         transform: scale(1.01, 1.01);
       }
       .mainDulDos{
