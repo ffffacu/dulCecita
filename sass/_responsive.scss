@@ -2,7 +2,7 @@
     body{
     header{
         .tituloDul{
-            height: 100px;
+            height: 70px;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -10,39 +10,46 @@
             .tituloDulImgContenedor{
                 .imgUno{
                     position: relative;
-                    left: -20px;
+                    left: -17px;
                 }
                 .imgDos{
                     position: relative;
-                    left: 20px;
+                    left: 17px;
                 }
     
             .tituloDulImg{
                 position: relative;
-                top: -30px;
-                height: 160px;
-                width: 150px;
+                top: -45px;
+                height: 150px;
+                width: 115px;
             }
             }
             .tituloDulCartel{
                 margin-top: 1.8rem;
-                height: 75px;
+                height: 50px;
                 width: 400px;
                 .tituloDulCartelUno{
-                    top: 2rem;
+                    top: 1rem;
                     height: 0.5rem;
                     width: 0.5rem;
                 }
                 .titulo{
-                    padding-top: 20px;
-                    font-size: 30px;
+                    padding-top: 5px;
+                    font-size: 20px;
                     }
             }
         }
+        .navBarDul{
+            .tituloContenedor{
+                    font-size: 35px;
+            }
+        }
+    
      nav{
-         height: 200px;
-         .navBarDulUno{
+        .navBarDulSeis{
             height: 100px;
+        }
+         .navBarDulUno{
              .navBarDulDos{
                  .navBarDulTres{
                      .navBarDulCuatro{
@@ -57,7 +64,7 @@
     }
     }
  
- // index.titulo
+ // index
 
  main{
     .mainDul{
@@ -79,6 +86,44 @@
         transform: translate(-90%, -85%);
       }  
     }
+    }
+    .redesDul{
+        font-size: 1.8rem;
+      }
+    .redesDulUno{
+        .redesDulPadre{  
+            margin: 20px;    
+          .redesDulDos{
+            width: 200px;
+            height: 250px;
+            .redesDulDosCara{
+                .imgDulRedes{
+                    width: 80px;
+                    height: 80px;
+                }
+                h4{
+                    font-size: 24px;
+                }
+            }
+            .redesDulDosDorso{            
+                .redesDulDosDorsoCuerpo{
+                    padding: 30px;
+                  div{
+                   img{
+                     height: 100px;
+                     width: 100px;
+                   }
+                  }
+                  p{
+                    font-size: 20px;
+                  }
+              }
+            }
+          }
+
+        }
+    }
+
 }
 }
 
@@ -110,7 +155,7 @@
 //         }
 //     }
 // }
-}
+//}
 
 
 

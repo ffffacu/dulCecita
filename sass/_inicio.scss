@@ -173,6 +173,8 @@ main{
          margin-top: 20px;
          perspective: 1000px;
          display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
          justify-content: center;
          .redesDulPadre{
            margin: 40px;
