@@ -772,22 +772,62 @@ main .imagenDulc .imagenClienteFelices img {
         flex-wrap: nowrap;
   }
   main .mainDul {
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-    -ms-grid-rows: 30%  30% 30%;
-        grid-template-rows: 30%  30% 30%;
-        grid-template-areas: "imgUno" "imgDos" "imgTres";
+    padding: 25px;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 300px  150px;
+        grid-template-rows: 300px  150px;
+        grid-template-areas: "imgUno imgUno" "imgDos imgTres";
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+  main .mainDul .mainDulUno {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: imgUno;
   }
   main .mainDul .mainDulUno .dulTortasUno {
-    height: 32%;
-    padding-top: 1.2rem;
+    height: 20%;
+    padding-top: 0.5rem;
     top: 90%;
+  }
+  main .mainDul .mainDulUno .dultortadDos {
+    padding-top: 5rem;
   }
   main .mainDul .mainDulUno .dultortadDos {
     padding-bottom: 1rem;
     top: 85%;
     -webkit-transform: translate(-90%, -85%);
             transform: translate(-90%, -85%);
+  }
+  main .mainDul .mainDulDos {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: imgDos;
+  }
+  main .mainDul .mainDulTres {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: imgTres;
+  }
+  main .mainDul .mainDulDos .dulTortasUno, main .mainDul .mainDulTres .dulTortasUno {
+    height: 30%;
+    padding-top: 0.30rem;
+    top: 90%;
+  }
+  main .mainDul .mainDulDos .dulTortasUno h2, main .mainDul .mainDulTres .dulTortasUno h2 {
+    font-size: 1rem;
+    text-align: left;
+  }
+  main .mainDul .mainDulDos .dultortadDos, main .mainDul .mainDulTres .dultortadDos {
+    padding-top: 6rem;
+    text-align: right;
+    padding-left: 100px;
+  }
+  main .mainDul .mainDulDos .dultortadDos .dulceBoton, main .mainDul .mainDulTres .dultortadDos .dulceBoton {
+    height: 40px;
+    width: 30px;
   }
   main .redesDul {
     font-size: 1.8rem;

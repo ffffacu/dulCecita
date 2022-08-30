@@ -68,23 +68,55 @@
 
  main{
     .mainDul{
-        grid-template-columns: 100%;
-        grid-template-rows: 30%  30% 30%;
-        grid-template-areas: "imgUno"
-        "imgDos"
-        "imgTres";
-    
+        padding: 25px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 300px  150px ;
+        grid-template-areas: "imgUno imgUno"
+        "imgDos imgTres";
+        grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
     .mainDulUno{
+        grid-area: imgUno;
         .dulTortasUno{
-            height: 32%;
-            padding-top: 1.2rem;
+            height: 20%;
+            padding-top: 0.5rem;
             top:90%;
     }
+    .dultortadDos{
+        padding-top: 5rem;
+      }
     .dultortadDos{
         padding-bottom: 1rem;
         top:85%;
         transform: translate(-90%, -85%);
       }  
+    }
+    .mainDulDos{
+        grid-area: imgDos;
+    }
+    .mainDulTres{
+        grid-area: imgTres;
+    }
+    .mainDulDos, .mainDulTres{
+        .dulTortasUno{
+            height: 30%;
+            padding-top: 0.30rem;
+            top:90%;
+            h2{
+                font-size: 1rem;
+                text-align: left;
+
+            }
+    }
+    .dultortadDos{
+        padding-top: 6rem;
+        text-align: right;
+        padding-left: 100px;
+        .dulceBoton{
+            height: 40px;
+            width: 30px;
+        }
+      }
     }
     }
     .redesDul{
