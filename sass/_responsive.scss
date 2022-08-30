@@ -200,6 +200,25 @@ footer{
     }
 }
 
+.contenedorDeliciasDul{
+    h2{
+        margin: 5px;
+    }
+    .contenedorTortasClasicas{
+        justify-content: center;
+        margin-left: 0;
+        img{
+            height:90px;
+        }
+        .card{
+            font-size: 0.5rem;
+            width:130px;
+            height:145px;
+            margin: 8px;
+        }
+    }
+}
+
 }
 
 

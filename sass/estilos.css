@@ -907,6 +907,24 @@ main .imagenDulc .imagenClienteFelices img {
     padding: 5px;
     font-size: 15px;
   }
+  .contenedorDeliciasDul h2 {
+    margin: 5px;
+  }
+  .contenedorDeliciasDul .contenedorTortasClasicas {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+  }
+  .contenedorDeliciasDul .contenedorTortasClasicas img {
+    height: 90px;
+  }
+  .contenedorDeliciasDul .contenedorTortasClasicas .card {
+    font-size: 0.5rem;
+    width: 130px;
+    height: 145px;
+    margin: 8px;
+  }
 }
 
 @media only screen and (min-width: 1370px) {
