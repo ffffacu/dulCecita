@@ -214,10 +214,51 @@ footer{
             font-size: 0.5rem;
             width:150px;
             height:170px;
-            margin: 8px;
+            margin: 10px;
         }
     }
 }
+main{
+    .contenedorQuienSoy{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 150px;
+        .cajaUnoQuienSoy{
+            h3{
+                font-size: 25px;
+            }
+            p{
+            font-size: 15px;
+            margin-top: 20px;
+            padding: 5px;
+        }
+        }
+        .cajaDosQuienSoy{
+            img{
+                margin:50px;
+                width: 70%;
+                height: 70%;
+            }
+        }
+    }
+    .contendedorTotal{
+        margin: 20px;
+        .contenedorCarruselTotal{
+            .contenedorImagenes{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                img{
+                    padding: 5px;
+                    height: 150px;
+                    width: 150px;
+                    border-radius: 40px;
+                }
+            }
+        }
+    }
+    }
 
 }
 

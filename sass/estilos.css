@@ -923,7 +923,51 @@ main .imagenDulc .imagenClienteFelices img {
     font-size: 0.5rem;
     width: 150px;
     height: 170px;
-    margin: 8px;
+    margin: 10px;
+  }
+  main .contenedorQuienSoy {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 150px;
+        grid-template-rows: 150px;
+  }
+  main .contenedorQuienSoy .cajaUnoQuienSoy h3 {
+    font-size: 25px;
+  }
+  main .contenedorQuienSoy .cajaUnoQuienSoy p {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 5px;
+  }
+  main .contenedorQuienSoy .cajaDosQuienSoy img {
+    margin: 50px;
+    width: 70%;
+    height: 70%;
+  }
+  main .contendedorTotal {
+    margin: 20px;
+  }
+  main .contendedorTotal .contenedorCarruselTotal .contenedorImagenes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .contendedorTotal .contenedorCarruselTotal .contenedorImagenes img {
+    padding: 5px;
+    height: 150px;
+    width: 150px;
+    border-radius: 40px;
   }
 }
 
