@@ -614,6 +614,10 @@ main .contendedorTotal .contenedorCarruselTotal .contenedorImagenes img:hover {
   color: #7a7a7a;
 }
 
+.mainEncuentranos .contactoDul .contactoDulRedes .contactoHr {
+  display: none;
+}
+
 .mainEncuentranos .contactoDul .contactoDulEmail {
   width: 50%;
   font-size: 1.1rem;
@@ -926,8 +930,6 @@ main .imagenDulc .imagenClienteFelices img {
     margin: 10px;
   }
   main .contenedorQuienSoy {
-    display: -ms-grid;
-    display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
     -ms-grid-rows: 150px;
@@ -968,6 +970,82 @@ main .imagenDulc .imagenClienteFelices img {
     height: 150px;
     width: 150px;
     border-radius: 40px;
+  }
+  main .imagenDulc {
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+  }
+  main .imagenDulc .imagenClienteFelices {
+    padding: 15px;
+  }
+  main .imagenDulc .imagenClienteFelices div img {
+    height: 250px;
+  }
+  .mainEncuentranos {
+    height: 100%;
+  }
+  .mainEncuentranos .tituloEncuentranos {
+    font-size: 30px;
+    padding: 0.5rem;
+  }
+  .mainEncuentranos .contactoDul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin: 0.5rem;
+    height: 100%;
+  }
+  .mainEncuentranos .contactoDul .contactoDulRedes {
+    width: 100%;
+  }
+  .mainEncuentranos .contactoDul .contactoDulRedes div {
+    padding: 0.1rem;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .mainEncuentranos .contactoDul .contactoDulRedes h4 {
+    text-align: center;
+  }
+  .mainEncuentranos .contactoDul .contactoDulRedes hr {
+    width: 90%;
+    margin: auto;
+  }
+  .mainEncuentranos .contactoDul .contactoDulRedes a {
+    padding: 0.2rem;
+    font-size: 30px;
+  }
+  .mainEncuentranos .contactoDul .contactoDulRedes .contactoDulSeguinos {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainEncuentranos .contactoDul .contactoDulRedes .contactoHr {
+    display: block;
+  }
+  .mainEncuentranos .contactoDul .contactoDulEmail {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+  .mainEncuentranos .contactoDul .contactoDulEmail .contactoDulFormulario {
+    width: 90%;
   }
 }
 

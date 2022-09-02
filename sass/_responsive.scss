@@ -218,9 +218,11 @@ footer{
         }
     }
 }
+
+// Quien Soy?
+
 main{
     .contenedorQuienSoy{
-        display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 150px;
         .cajaUnoQuienSoy{
@@ -260,12 +262,81 @@ main{
     }
     }
 
+    main{
+
+        .imagenDulc{
+            justify-content:none;
+            .imagenClienteFelices{
+                padding: 15px;
+                div{
+                    img{
+                        height: 250px;
+                    }
+                }
+                
+            }
+        }
+    }
+    //Encuentranos
+    .mainEncuentranos{
+        height: 100%;
+        .tituloEncuentranos{
+            font-size: 30px;
+            padding: 0.5rem;    
+        }
+        .contactoDul{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin: 0.5rem;
+            height: 100%;
+            .contactoDulRedes{
+                width: 100%;
+                div{
+                    padding: 0.1rem;
+                    font-size: 0.8rem;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-around;
+                    
+                }
+                h4{
+                    text-align: center;
+                }
+                hr{
+                    width: 90%;
+                    margin: auto;
+                }
+                a{
+                    padding: 0.2rem;
+                    font-size: 30px;
+                }
+                .contactoDulSeguinos{
+                    justify-content: center;
+                }
+                .contactoHr{
+                    display: block;
+                }
+            }
+            .contactoDulEmail{
+                width: 100%;
+                font-size: 1.1rem;
+                padding: 10px;
+                .contactoDulFormulario{
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+
 }
 
 
  @media only screen and (min-width: 1370px){
 
-    //Delicias
+//Delicias
 
   main{
     .contenedorDeliciasDul{
